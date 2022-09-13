@@ -28,7 +28,7 @@ void drawScene(void)
 	glBegin(GL_LINE_STRIP);
 	for (t = -10 * M_PI; t <= 10 * M_PI; t += M_PI / 20.0)
        glVertex3f(R * cos(t), R * sin(t), t - 60.0);
-	   // glVertex3f(R * cos(t), t, R * sin(t) - 60.0);
+	   //glVertex3f(R * cos(t), t, R * sin(t) - 60.0);
 	glEnd();
 
 	glFlush();
